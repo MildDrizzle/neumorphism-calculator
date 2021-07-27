@@ -88,7 +88,8 @@ const addOperator = (value) => {
     lastChar !== "-" &&
     lastChar !== "*" &&
     lastChar !== "/" &&
-    lastChar !== "%"
+    lastChar !== "%" &&
+    toCalculate
   ) {
     toCalculate += value;
     toCalculateElement.innerHTML = toCalculate;
