@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+h4,
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #859cff;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d2dbee;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: "Signika", sans-serif;
+  max-width: 50%;
+}
+
+.container .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #d2dbee;
+  -webkit-box-shadow: inset 9.91px 9.91px 15px #bfc7d9, inset -9.91px -9.91px 15px #e5efff;
+          box-shadow: inset 9.91px 9.91px 15px #bfc7d9, inset -9.91px -9.91px 15px #e5efff;
+}
+
+.container .calculator .screen {
+  background: #eef0f4;
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 9.91px 9.91px 15px #d9dade, inset -9.91px -9.91px 15px #ffffff;
+          box-shadow: inset 9.91px 9.91px 15px #d9dade, inset -9.91px -9.91px 15px #ffffff;
+  height: 10rem;
+  width: 85%;
+  max-width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem;
+}
+
+.container .calculator .screen h1 {
+  font-size: 3rem;
+}
+
+.container .calculator .screen h4 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.container .calculator .keypad {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem 2rem;
+}
+
+.container .calculator .keypad button {
+  padding: 0.5rem 1.2rem;
+  background: #d2dbee;
+  border-radius: 15%;
+  -webkit-box-shadow: inset 8.41px 8.41px 26px #a0a6b5, inset -8.41px -8.41px 26px #ffffff;
+          box-shadow: inset 8.41px 8.41px 26px #a0a6b5, inset -8.41px -8.41px 26px #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Signika", sans-serif;
+}
+
+.container .calculator .keypad button:hover {
+  background: #caa4fc;
+  border-radius: 15%;
+  -webkit-box-shadow: inset 8.41px 8.41px 26px #989db2, inset -8.41px -8.41px 26px #f8ffff;
+          box-shadow: inset 8.41px 8.41px 26px #989db2, inset -8.41px -8.41px 26px #f8ffff;
+}
+
+.container .calculator .keypad button:hover:nth-child(1) {
+  background: rgba(252, 147, 147, 0.829);
+}
+
+.container .calculator .keypad button:hover:nth-child(2) {
+  background: rgba(252, 147, 147, 0.829);
+}
+
+.container .calculator .keypad button:hover:nth-child(3) {
+  background: rgba(252, 147, 147, 0.829);
+}
+
+.container .calculator .keypad button:nth-child(1) {
+  color: #fc5454;
+}
+
+.container .calculator .keypad button:nth-child(2) {
+  color: #fc5454;
+}
+
+.container .calculator .keypad button:nth-child(3) {
+  color: #fc5454;
+}
+
+.container .calculator .keypad button:nth-child(4n + 4):hover {
+  background: #b7ffb0;
+}
+/*# sourceMappingURL=index.css.map */
